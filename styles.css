@@ -1,22 +1,20 @@
 
 header * {
-
     display: inline-block;
 }
+
 .logo img {
     margin-top: 10px;
     margin-left: 75px;
     width: 75px;
 }
 
-
-
 header {
     background: linear-gradient(mediumblue, black);
-    width: 100%;
-    height: 100px;
+    width: auto;
+    height: auto;
     display: flex;
-    align-items: center;
+
 }
 
 header li {
@@ -24,12 +22,13 @@ header li {
 }
 
 header a:link {
-color: lightgray;
+    color: lightgray;
     font-family: bevan;
     text-decoration: none;
 
 }
- header a:hover {
+
+header a:hover {
     color: red;
 }
 
@@ -37,23 +36,43 @@ header a:visited {
     color: dodgerblue;
 }
 
+body {
+    margin: 0;
+
+    background: linear-gradient(white, black);
+}
+
 .slider img {
     width: 100%;
     height: 80%;
 }
 
-h1  {
+h1 {
+    text-align: center;
     margin-left: 10px;
     font-family: bevan;
 }
 
-.ln {
-    justify-content: space-around;
-    display: flex;
-    margin-top: 200px;
+.article-latest-news {
+    background: linear-gradient(white, black);
 }
 
-.ln img {
-    width: 50%;
-    height: 50%;
+.last-news-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
 }
+
+.last-news {
+    border-style: ;
+}
+
+h2 {
+
+    font-family: bevan;
+}
+
+
+
+
