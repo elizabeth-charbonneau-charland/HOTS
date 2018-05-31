@@ -7,6 +7,7 @@ header * {
     margin-top: 10px;
     margin-left: 75px;
     width: 75px;
+
 }
 
 header {
@@ -44,17 +45,14 @@ body {
 
 .slider img {
     width: 100%;
-    height: 80%;
+    height: 100%;
+
 }
 
-h1 {
-    text-align: center;
-    margin-left: 10px;
-    font-family: bevan;
-}
+
 
 .article-latest-news {
-    background: linear-gradient(white, black);
+    background: linear-gradient(black,purple );
 }
 
 .last-news-section {
@@ -62,14 +60,29 @@ h1 {
     justify-content: space-around;
     margin-top: 100px;
 
+
 }
 
-.last-news {
-    border-style: ;
+.last-news img {
+    border: solid 5px;
+
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 50px;
+    color: white;
+    margin-top: -4px;
+    text-align: center;
+    margin-left: 10px;
+    font-family: bevan;
 }
 
 h2 {
-
+    border: solid;
+    text-align: center;
+color: gainsboro;
     font-family: bevan;
 }
 
